@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
+import SurveyContext from '../components/SurveyContext'
 import { districts, provinceColors } from '../data/districts'
 
 function DistrictDetailPage() {
@@ -26,43 +27,45 @@ function DistrictDetailPage() {
     { label: 'Agroforestry', value: `${district.agroforestry.toFixed(1)}%` },
     { label: 'Organic fertilizer', value: `${district.organicFert.toFixed(1)}%` },
     { label: 'Inorganic fertilizer', value: `${district.inorganicFert.toFixed(1)}%` },
+    { label: 'Irrigation adoption', value: `${district.irrigation.toFixed(1)}%` },
+    { label: 'Agroforestry adoption', value: `${district.agroforestry.toFixed(1)}%` },
+    { label: 'Mechanization use', value: `${district.mechanization.toFixed(1)}%` },
   ]
 
   return (
-    <main className="max-w-6xl mx-auto px-6 py-12">
+    <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
       <Link to="/districts" className="text-farm-green hover:underline mb-4 inline-block">
         ← Back to all districts
       </Link>
 
-      <div className="mb-8">
-        <div className="flex items-center gap-4 mb-2">
-          <h1 className="text-4xl font-bold text-farm-dark">{district.name}</h1>
-          <span className={`text-sm px-3 py-1 rounded-full font-semibold ${provinceColors[district.province]}`}>
-            {district.province} Province
-          </span>
+      <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <div className="mb-2 flex flex-wrap items-center gap-3">
+            <h1 className="text-3xl font-bold text-farm-dark sm:text-4xl">{district.name}</h1>
+            <span className={`rounded-full px-3 py-1 text-sm font-semibold ${provinceColors[district.province]}`}>
+              {district.province} Province
+            </span>
+          </div>
+          <p className="text-gray-600">Agricultural profile · Season B 2026</p>
         </div>
-        <p className="text-gray-600">
-          Agricultural profile · Season B 2026
-        </p>
+        <Link
+          to={`/compare?district=${encodeURIComponent(district.name)}`}
+          className="inline-flex min-h-11 items-center justify-center rounded-lg border border-farm-green px-4 py-2 font-semibold text-farm-dark hover:bg-farm-light focus:outline-none focus:ring-2 focus:ring-farm-green"
+        >
+          Compare this district
+        </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
         {stats.map((s) => (
-          <div key={s.label} className="bg-white p-6 rounded-lg shadow-md border-l-4 border-farm-green">
-            <div className="text-2xl font-bold text-farm-green mb-1">{s.value}</div>
+          <div key={s.label} className="min-w-0 rounded-lg border-l-4 border-farm-green bg-white p-5 shadow-md sm:p-6">
+            <div className="mb-1 text-2xl font-bold tabular-nums text-farm-green">{s.value}</div>
             <div className="text-sm text-farm-dark font-medium">{s.label}</div>
           </div>
         ))}
       </div>
 
-      <div className="mt-12 bg-white p-6 rounded-lg shadow-md">
-        <h2 className="text-xl font-bold text-farm-dark mb-3">About this data</h2>
-        <p className="text-gray-600 text-sm">
-          Data comes from the NISR Seasonal Agricultural Survey (SAS) 2026 Season B,
-          collected between April 19 and June 28, 2026. Percentages reflect the share
-          of farmers or agricultural land in the district using each practice.
-        </p>
-      </div>
+      <SurveyContext className="mt-8" />
     </main>
   )
 }

@@ -1,0 +1,517 @@
+{
+  "survey": {
+    "source": "NISR Seasonal Agricultural Survey",
+    "season": "Season B 2026",
+    "collectionStart": "April 19, 2026",
+    "collectionEnd": "June 28, 2026",
+    "period": "March 2026 – June 2026"
+  },
+  "overview": {
+    "totalLand": 2376299,
+    "agriculturalLand": 1413813,
+    "agriculturalPercent": 59.5,
+    "seasonalCropsLand": 1022374,
+    "permanentCropsLand": 525525
+  },
+  "farmingPractices": {
+    "improvedSeeds": {
+      "overall": 20.9,
+      "ssf": 19.36,
+      "lsf": 64.98
+    },
+    "organicFertilizer": {
+      "overall": 81.34,
+      "ssf": 81.69,
+      "lsf": 71.31
+    },
+    "inorganicFertilizer": {
+      "overall": 57.5,
+      "ssf": 56.73,
+      "lsf": 80.17
+    },
+    "pesticides": {
+      "overall": 39.1,
+      "ssf": 37.68,
+      "lsf": 79.96
+    },
+    "agroforestry": {
+      "overall": 57.99,
+      "ssf": 58.23,
+      "lsf": 49.9
+    },
+    "irrigation": {
+      "overall": 13.08,
+      "ssf": 11.47,
+      "lsf": 56.23
+    },
+    "mechanization": {
+      "overall": 1.83,
+      "ssf": 1.15,
+      "lsf": 21.31
+    }
+  },
+  "districts": [
+    {
+      "name": "Nyarugenge",
+      "totalLand": 13.094142307934574,
+      "agriLand": 7.852658,
+      "agriPercent": 59.97077025229499,
+      "seasonalCrops": 4.56756,
+      "permanentCrops": 3.308656,
+      "organicFert": 64.66,
+      "inorganicFert": 34.59,
+      "erosionControl": 80.45,
+      "mechanization": 0.0,
+      "irrigation": 8.21,
+      "agroforestry": 57.07
+    },
+    {
+      "name": "Gasabo",
+      "totalLand": 42.710230252148435,
+      "agriLand": 20.64365,
+      "agriPercent": 48.33420442391919,
+      "seasonalCrops": 15.97512,
+      "permanentCrops": 9.886199000000001,
+      "organicFert": 77.63,
+      "inorganicFert": 42.43,
+      "erosionControl": 89.8,
+      "mechanization": 0.66,
+      "irrigation": 18.24,
+      "agroforestry": 54.27
+    },
+    {
+      "name": "Kicukiro",
+      "totalLand": 16.562534364404296,
+      "agriLand": 5.471424,
+      "agriPercent": 33.034944288230555,
+      "seasonalCrops": 3.385984,
+      "permanentCrops": 2.301698,
+      "organicFert": 47.83,
+      "inorganicFert": 20.29,
+      "erosionControl": 73.91,
+      "mechanization": 0.0,
+      "irrigation": 6.94,
+      "agroforestry": 46.94
+    },
+    {
+      "name": "Nyanza",
+      "totalLand": 67.04278783349609,
+      "agriLand": 47.29768,
+      "agriPercent": 70.54849824781454,
+      "seasonalCrops": 40.90708,
+      "permanentCrops": 15.02539,
+      "organicFert": 87.41,
+      "inorganicFert": 40.65,
+      "erosionControl": 97.12,
+      "mechanization": 0.0,
+      "irrigation": 22.13,
+      "agroforestry": 57.37
+    },
+    {
+      "name": "Gisagara",
+      "totalLand": 67.47864910018312,
+      "agriLand": 46.050059999999995,
+      "agriPercent": 68.24389731280947,
+      "seasonalCrops": 39.2055,
+      "permanentCrops": 15.2655,
+      "organicFert": 80.0,
+      "inorganicFert": 39.6,
+      "erosionControl": 94.8,
+      "mechanization": 0.0,
+      "irrigation": 24.56,
+      "agroforestry": 53.17
+    },
+    {
+      "name": "Nyaruguru",
+      "totalLand": 101.04798560838621,
+      "agriLand": 35.86985,
+      "agriPercent": 35.49783776889371,
+      "seasonalCrops": 26.42109,
+      "permanentCrops": 10.40321,
+      "organicFert": 97.97,
+      "inorganicFert": 83.72,
+      "erosionControl": 99.71,
+      "mechanization": 0.0,
+      "irrigation": 23.93,
+      "agroforestry": 44.79
+    },
+    {
+      "name": "Huye",
+      "totalLand": 58.063407297619634,
+      "agriLand": 37.03017,
+      "agriPercent": 63.77539955619878,
+      "seasonalCrops": 32.23838,
+      "permanentCrops": 13.781780000000001,
+      "organicFert": 90.09,
+      "inorganicFert": 36.49,
+      "erosionControl": 93.47,
+      "mechanization": 0.23,
+      "irrigation": 25.67,
+      "agroforestry": 46.45
+    },
+    {
+      "name": "Nyamagabe",
+      "totalLand": 109.0743344895996,
+      "agriLand": 49.4525,
+      "agriPercent": 45.338346762698215,
+      "seasonalCrops": 35.06052,
+      "permanentCrops": 14.87455,
+      "organicFert": 96.6,
+      "inorganicFert": 70.29,
+      "erosionControl": 97.28,
+      "mechanization": 0.0,
+      "irrigation": 8.99,
+      "agroforestry": 43.33
+    },
+    {
+      "name": "Ruhango",
+      "totalLand": 62.584193684021,
+      "agriLand": 46.17989,
+      "agriPercent": 73.78842369233983,
+      "seasonalCrops": 34.27011,
+      "permanentCrops": 15.613280000000001,
+      "organicFert": 85.18,
+      "inorganicFert": 28.52,
+      "erosionControl": 95.31,
+      "mechanization": 0.38,
+      "irrigation": 14.58,
+      "agroforestry": 48.77
+    },
+    {
+      "name": "Muhanga",
+      "totalLand": 64.09447869753419,
+      "agriLand": 44.0214,
+      "agriPercent": 68.68204702582841,
+      "seasonalCrops": 29.12767,
+      "permanentCrops": 18.38857,
+      "organicFert": 91.47,
+      "inorganicFert": 39.4,
+      "erosionControl": 96.77,
+      "mechanization": 0.23,
+      "irrigation": 14.32,
+      "agroforestry": 59.36
+    },
+    {
+      "name": "Kamonyi",
+      "totalLand": 65.75003541818847,
+      "agriLand": 48.98937,
+      "agriPercent": 74.50850739229874,
+      "seasonalCrops": 36.332440000000005,
+      "permanentCrops": 19.48178,
+      "organicFert": 87.22,
+      "inorganicFert": 35.9,
+      "erosionControl": 95.49,
+      "mechanization": 0.94,
+      "irrigation": 19.96,
+      "agroforestry": 52.06
+    },
+    {
+      "name": "Karongi",
+      "totalLand": 78.812256053125,
+      "agriLand": 44.62104,
+      "agriPercent": 56.61687944819431,
+      "seasonalCrops": 29.019389999999998,
+      "permanentCrops": 20.71416,
+      "organicFert": 95.02,
+      "inorganicFert": 64.48,
+      "erosionControl": 96.38,
+      "mechanization": 0.0,
+      "irrigation": 14.22,
+      "agroforestry": 50.18
+    },
+    {
+      "name": "Rutsiro",
+      "totalLand": 66.06075854906008,
+      "agriLand": 35.94,
+      "agriPercent": 54.40446157352118,
+      "seasonalCrops": 21.23186,
+      "permanentCrops": 14.590069999999999,
+      "organicFert": 96.88,
+      "inorganicFert": 64.58,
+      "erosionControl": 98.44,
+      "mechanization": 0.26,
+      "irrigation": 5.78,
+      "agroforestry": 51.91
+    },
+    {
+      "name": "Rubavu",
+      "totalLand": 33.876553168090815,
+      "agriLand": 24.309150000000002,
+      "agriPercent": 71.75803830862405,
+      "seasonalCrops": 20.835939999999997,
+      "permanentCrops": 4.823586000000001,
+      "organicFert": 66.32,
+      "inorganicFert": 70.79,
+      "erosionControl": 94.21,
+      "mechanization": 0.0,
+      "irrigation": 2.1,
+      "agroforestry": 54.14
+    },
+    {
+      "name": "Nyabihu",
+      "totalLand": 54.03321182441407,
+      "agriLand": 30.82232,
+      "agriPercent": 57.043286821742136,
+      "seasonalCrops": 23.74671,
+      "permanentCrops": 3.9634169999999997,
+      "organicFert": 96.73,
+      "inorganicFert": 89.7,
+      "erosionControl": 98.49,
+      "mechanization": 0.0,
+      "irrigation": 4.52,
+      "agroforestry": 70.38
+    },
+    {
+      "name": "Ngororero",
+      "totalLand": 66.662476711145,
+      "agriLand": 43.83145,
+      "agriPercent": 65.75130742580407,
+      "seasonalCrops": 29.00241,
+      "permanentCrops": 15.31304,
+      "organicFert": 97.53,
+      "inorganicFert": 81.07,
+      "erosionControl": 98.77,
+      "mechanization": 0.0,
+      "irrigation": 4.46,
+      "agroforestry": 60.22
+    },
+    {
+      "name": "Rusizi",
+      "totalLand": 91.62673150339356,
+      "agriLand": 39.18741000000001,
+      "agriPercent": 42.76853420068644,
+      "seasonalCrops": 30.44868,
+      "permanentCrops": 14.751389999999999,
+      "organicFert": 75.7,
+      "inorganicFert": 66.53,
+      "erosionControl": 92.23,
+      "mechanization": 0.2,
+      "irrigation": 16.27,
+      "agroforestry": 63.29
+    },
+    {
+      "name": "Nyamasheke",
+      "totalLand": 94.76788813907473,
+      "agriLand": 37.13635,
+      "agriPercent": 39.186638775258224,
+      "seasonalCrops": 27.92242,
+      "permanentCrops": 17.80002,
+      "organicFert": 90.32,
+      "inorganicFert": 70.75,
+      "erosionControl": 98.71,
+      "mechanization": 0.0,
+      "irrigation": 13.71,
+      "agroforestry": 62.79
+    },
+    {
+      "name": "Rulindo",
+      "totalLand": 56.62350235334475,
+      "agriLand": 34.47476,
+      "agriPercent": 60.88418866227829,
+      "seasonalCrops": 21.67279,
+      "permanentCrops": 14.54995,
+      "organicFert": 95.61,
+      "inorganicFert": 68.03,
+      "erosionControl": 96.55,
+      "mechanization": 0.31,
+      "irrigation": 19.08,
+      "agroforestry": 54.68
+    },
+    {
+      "name": "Gakenke",
+      "totalLand": 70.03174641347655,
+      "agriLand": 46.42541000000001,
+      "agriPercent": 66.29194954799262,
+      "seasonalCrops": 32.26298,
+      "permanentCrops": 16.39873,
+      "organicFert": 98.54,
+      "inorganicFert": 82.95,
+      "erosionControl": 99.17,
+      "mechanization": 0.42,
+      "irrigation": 5.37,
+      "agroforestry": 51.63
+    },
+    {
+      "name": "Musanze",
+      "totalLand": 50.91807325129395,
+      "agriLand": 30.46591,
+      "agriPercent": 59.833194884737296,
+      "seasonalCrops": 22.73073,
+      "permanentCrops": 4.603752,
+      "organicFert": 87.86,
+      "inorganicFert": 74.76,
+      "erosionControl": 94.76,
+      "mechanization": 0.24,
+      "irrigation": 3.53,
+      "agroforestry": 50.38
+    },
+    {
+      "name": "Burera",
+      "totalLand": 58.419612178442385,
+      "agriLand": 37.7341,
+      "agriPercent": 64.59149349492667,
+      "seasonalCrops": 29.19507,
+      "permanentCrops": 4.789303,
+      "organicFert": 85.74,
+      "inorganicFert": 63.1,
+      "erosionControl": 99.16,
+      "mechanization": 0.42,
+      "irrigation": 5.01,
+      "agroforestry": 56.18
+    },
+    {
+      "name": "Gicumbi",
+      "totalLand": 82.46595814401856,
+      "agriLand": 54.17322,
+      "agriPercent": 65.69161532737166,
+      "seasonalCrops": 41.31849,
+      "permanentCrops": 15.867389999999999,
+      "organicFert": 97.37,
+      "inorganicFert": 60.98,
+      "erosionControl": 98.87,
+      "mechanization": 0.19,
+      "irrigation": 8.91,
+      "agroforestry": 54.43
+    },
+    {
+      "name": "Rwamagana",
+      "totalLand": 65.1446796352051,
+      "agriLand": 43.45775,
+      "agriPercent": 66.7095920086693,
+      "seasonalCrops": 32.2934,
+      "permanentCrops": 17.31353,
+      "organicFert": 74.65,
+      "inorganicFert": 49.7,
+      "erosionControl": 90.62,
+      "mechanization": 0.8,
+      "irrigation": 14.42,
+      "agroforestry": 71.23
+    },
+    {
+      "name": "Nyagatare",
+      "totalLand": 191.47989576711424,
+      "agriLand": 147.1001,
+      "agriPercent": 76.8227387061612,
+      "seasonalCrops": 84.66313000000001,
+      "permanentCrops": 70.00479,
+      "organicFert": 59.48,
+      "inorganicFert": 74.88,
+      "erosionControl": 80.89,
+      "mechanization": 28.2,
+      "irrigation": 11.37,
+      "agroforestry": 67.99
+    },
+    {
+      "name": "Gatsibo",
+      "totalLand": 153.2742017575928,
+      "agriLand": 78.40371,
+      "agriPercent": 51.15258086549851,
+      "seasonalCrops": 57.415330000000004,
+      "permanentCrops": 36.38081,
+      "organicFert": 82.68,
+      "inorganicFert": 67.6,
+      "erosionControl": 96.37,
+      "mechanization": 3.35,
+      "irrigation": 11.76,
+      "agroforestry": 67.43
+    },
+    {
+      "name": "Kayonza",
+      "totalLand": 179.99424071804202,
+      "agriLand": 89.34138,
+      "agriPercent": 49.63568814401778,
+      "seasonalCrops": 58.81135,
+      "permanentCrops": 40.936080000000004,
+      "organicFert": 72.62,
+      "inorganicFert": 58.94,
+      "erosionControl": 88.97,
+      "mechanization": 3.04,
+      "irrigation": 17.45,
+      "agroforestry": 58.6
+    },
+    {
+      "name": "Kirehe",
+      "totalLand": 114.15096917944335,
+      "agriLand": 77.18078,
+      "agriPercent": 67.61289943905176,
+      "seasonalCrops": 59.64757,
+      "permanentCrops": 31.25034,
+      "organicFert": 50.07,
+      "inorganicFert": 43.31,
+      "erosionControl": 82.9,
+      "mechanization": 0.69,
+      "irrigation": 13.76,
+      "agroforestry": 68.74
+    },
+    {
+      "name": "Ngoma",
+      "totalLand": 80.26310612858886,
+      "agriLand": 56.44996,
+      "agriPercent": 70.33114306536055,
+      "seasonalCrops": 44.11622,
+      "permanentCrops": 25.9227,
+      "organicFert": 48.53,
+      "inorganicFert": 28.68,
+      "erosionControl": 80.0,
+      "mechanization": 0.16,
+      "irrigation": 5.92,
+      "agroforestry": 61.29
+    },
+    {
+      "name": "Bugesera",
+      "totalLand": 120.19015386010744,
+      "agriLand": 73.89911000000001,
+      "agriPercent": 61.485161326952934,
+      "seasonalCrops": 58.54846,
+      "permanentCrops": 17.221709999999998,
+      "organicFert": 76.2,
+      "inorganicFert": 59.22,
+      "erosionControl": 81.28,
+      "mechanization": 0.73,
+      "irrigation": 18.58,
+      "agroforestry": 69.93
+    }
+  ],
+  "topCrops": [
+    {
+      "name": "Bean",
+      "area": 333735,
+      "unit": "ha"
+    },
+    {
+      "name": "Banana",
+      "area": 250772,
+      "unit": "ha"
+    },
+    {
+      "name": "Cassava",
+      "area": 192305,
+      "unit": "ha"
+    },
+    {
+      "name": "Sorghum",
+      "area": 103139,
+      "unit": "ha"
+    },
+    {
+      "name": "Cooking banana",
+      "area": 97498,
+      "unit": "ha"
+    },
+    {
+      "name": "Maize",
+      "area": 94823,
+      "unit": "ha"
+    },
+    {
+      "name": "Sweet potato",
+      "area": 84775,
+      "unit": "ha"
+    },
+    {
+      "name": "Irish potato",
+      "area": 48424,
+      "unit": "ha"
+    }
+  ]
+}

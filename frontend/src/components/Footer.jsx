@@ -1,8 +1,10 @@
+import { surveyInfo } from '../data/nationalStats'
+
 function Footer() {
   return (
     <footer className="bg-farm-dark text-white py-6 text-center mt-20">
-      <p className="text-sm">
-        Data source: NISR, Seasonal Agricultural Survey 2026 Season B
+      <p className="px-4 text-sm">
+        Data source: {surveyInfo.source}, {surveyInfo.season} · Fieldwork: {surveyInfo.dataCollectionStart} – {surveyInfo.dataCollectionEnd}
       </p>
     </footer>
   )

@@ -1,6 +1,7 @@
 import { overview, surveyInfo, farmingPractices, topCrops } from '../data/nationalStats'
 import CropChart from '../components/CropChart'
 import PracticesChart from '../components/PracticesChart'
+import SurveyContext from '../components/SurveyContext'
 
 function formatNumber(n) {
   return n.toLocaleString('en-US')
@@ -41,11 +42,11 @@ function PracticeBar({ label, value, ssf, lsf }) {
 
 function DashboardPage() {
   return (
-    <main className="max-w-6xl mx-auto px-6 py-12">
+    <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
       <div className="mb-10">
         <h1 className="text-4xl font-bold text-farm-dark mb-2">National Dashboard</h1>
         <p className="text-gray-600">
-          Season B 2026 · Data collected {surveyInfo.dataCollectionStart} – {surveyInfo.dataCollectionEnd}
+          {surveyInfo.season} · Data collected {surveyInfo.dataCollectionStart} – {surveyInfo.dataCollectionEnd}
         </p>
       </div>
 
@@ -102,8 +103,8 @@ function DashboardPage() {
 
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-farm-dark mb-4 border-b-2 border-farm-green pb-2 inline-block">Top Crops by Area</h2>
-        <div className="bg-white rounded-lg shadow-md overflow-hidden mt-4">
-          <table className="w-full">
+        <div className="mt-4 overflow-x-auto rounded-lg bg-white shadow-md">
+          <table className="w-full min-w-[440px]">
             <thead className="bg-farm-dark text-white">
               <tr>
                 <th className="text-left p-4">Crop</th>
@@ -124,9 +125,7 @@ function DashboardPage() {
         </div>
       </section>
 
-      <div className="text-xs text-gray-500 text-center mt-8">
-        Source: NISR, Seasonal Agricultural Survey 2026 Season B
-      </div>
+      <SurveyContext className="mt-8" />
     </main>
   )
 }
